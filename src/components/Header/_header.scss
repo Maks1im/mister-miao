@@ -1,0 +1,61 @@
+.header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  background: white;
+  width: 100%;
+  z-index: 1000;
+
+
+  &-main{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    .btn-burger-menu{
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      background: transparent;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover{
+        color: #1e285d;
+      }
+    }
+
+    .img-logo-header{
+      width: 5rem;
+    }
+  }
+
+  .navbar{
+
+    .navbar-list{
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      font-size: 1.3rem;
+      font-weight: 500;
+
+      a{
+        transition: .3s;
+        transition-duration: .2s;
+
+        &:hover{
+          color: #1e285d;
+        }
+      }
+    }
+  }
+
+  .info-header{
+    font-size: 1.35rem;
+  }
+}

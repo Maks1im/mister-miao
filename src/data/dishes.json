@@ -1,0 +1,40 @@
+{
+  "soups": [
+    {
+      "id": 1,
+      "name": "Мисс суп лосось",
+      "weight": "500 г",
+      "price": 370,
+      "currency": "р.",
+      "description": "Подробнее",
+      "action": "В корзину"
+    },
+    {
+      "id": 2,
+      "name": "Мисс суп с креветкой",
+      "weight": "500 г",
+      "price": 330,
+      "currency": "р.",
+      "description": "Подробнее",
+      "action": "В корзину"
+    },
+    {
+      "id": 3,
+      "name": "Мисс суп с тунцом",
+      "weight": "500 г",
+      "price": 280,
+      "currency": "р.",
+      "description": "Подробнее",
+      "action": "В корзину"
+    },
+    {
+      "id": 4,
+      "name": "Мисс суп с утрем",
+      "weight": "500 г",
+      "price": 390,
+      "currency": "р.",
+      "description": "Подробнее",
+      "action": "В корзину"
+    }
+  ]
+}
